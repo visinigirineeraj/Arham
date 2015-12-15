@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D19C3E91C20845500995818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C3E81C20845500995818 /* AppDelegate.swift */; };
+		6D19C3EB1C20845500995818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C3EA1C20845500995818 /* ViewController.swift */; };
+		6D19C3EE1C20845500995818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C3EC1C20845500995818 /* Main.storyboard */; };
+		6D19C3F11C20845500995818 /* Arham.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C3EF1C20845500995818 /* Arham.xcdatamodeld */; };
+		6D19C3F31C20845500995818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C3F21C20845500995818 /* Assets.xcassets */; };
+		6D19C3F61C20845500995818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D19C3F41C20845500995818 /* LaunchScreen.storyboard */; };
+		6D19C4011C20845500995818 /* ArhamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C4001C20845500995818 /* ArhamTests.swift */; };
+		6D19C40C1C20845500995818 /* ArhamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19C40B1C20845500995818 /* ArhamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D19C3FD1C20845500995818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D19C3DD1C20845500995818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D19C3E41C20845500995818;
+			remoteInfo = Arham;
+		};
+		6D19C4081C20845500995818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D19C3DD1C20845500995818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D19C3E41C20845500995818;
+			remoteInfo = Arham;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D19C3E51C20845500995818 /* Arham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arham.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19C3E81C20845500995818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D19C3EA1C20845500995818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D19C3ED1C20845500995818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D19C3F01C20845500995818 /* Arham.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Arham.xcdatamodel; sourceTree = "<group>"; };
+		6D19C3F21C20845500995818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D19C3F51C20845500995818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D19C3F71C20845500995818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D19C3FC1C20845500995818 /* ArhamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArhamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19C4001C20845500995818 /* ArhamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhamTests.swift; sourceTree = "<group>"; };
+		6D19C4021C20845500995818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D19C4071C20845500995818 /* ArhamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArhamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19C40B1C20845500995818 /* ArhamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArhamUITests.swift; sourceTree = "<group>"; };
+		6D19C40D1C20845500995818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D19C3E21C20845500995818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19C3F91C20845500995818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19C4041C20845500995818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D19C3DC1C20845400995818 = {
+			isa = PBXGroup;
+			children = (
+				6D19C3E71C20845500995818 /* Arham */,
+				6D19C3FF1C20845500995818 /* ArhamTests */,
+				6D19C40A1C20845500995818 /* ArhamUITests */,
+				6D19C3E61C20845500995818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D19C3E61C20845500995818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D19C3E51C20845500995818 /* Arham.app */,
+				6D19C3FC1C20845500995818 /* ArhamTests.xctest */,
+				6D19C4071C20845500995818 /* ArhamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D19C3E71C20845500995818 /* Arham */ = {
+			isa = PBXGroup;
+			children = (
+				6D19C3E81C20845500995818 /* AppDelegate.swift */,
+				6D19C3EA1C20845500995818 /* ViewController.swift */,
+				6D19C3EC1C20845500995818 /* Main.storyboard */,
+				6D19C3F21C20845500995818 /* Assets.xcassets */,
+				6D19C3F41C20845500995818 /* LaunchScreen.storyboard */,
+				6D19C3F71C20845500995818 /* Info.plist */,
+				6D19C3EF1C20845500995818 /* Arham.xcdatamodeld */,
+			);
+			path = Arham;
+			sourceTree = "<group>";
+		};
+		6D19C3FF1C20845500995818 /* ArhamTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D19C4001C20845500995818 /* ArhamTests.swift */,
+				6D19C4021C20845500995818 /* Info.plist */,
+			);
+			path = ArhamTests;
+			sourceTree = "<group>";
+		};
+		6D19C40A1C20845500995818 /* ArhamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D19C40B1C20845500995818 /* ArhamUITests.swift */,
+				6D19C40D1C20845500995818 /* Info.plist */,
+			);
+			path = ArhamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D19C3E41C20845500995818 /* Arham */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D19C4101C20845500995818 /* Build configuration list for PBXNativeTarget "Arham" */;
+			buildPhases = (
+				6D19C3E11C20845500995818 /* Sources */,
+				6D19C3E21C20845500995818 /* Frameworks */,
+				6D19C3E31C20845500995818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arham;
+			productName = Arham;
+			productReference = 6D19C3E51C20845500995818 /* Arham.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D19C3FB1C20845500995818 /* ArhamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D19C4131C20845500995818 /* Build configuration list for PBXNativeTarget "ArhamTests" */;
+			buildPhases = (
+				6D19C3F81C20845500995818 /* Sources */,
+				6D19C3F91C20845500995818 /* Frameworks */,
+				6D19C3FA1C20845500995818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D19C3FE1C20845500995818 /* PBXTargetDependency */,
+			);
+			name = ArhamTests;
+			productName = ArhamTests;
+			productReference = 6D19C3FC1C20845500995818 /* ArhamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D19C4061C20845500995818 /* ArhamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D19C4161C20845500995818 /* Build configuration list for PBXNativeTarget "ArhamUITests" */;
+			buildPhases = (
+				6D19C4031C20845500995818 /* Sources */,
+				6D19C4041C20845500995818 /* Frameworks */,
+				6D19C4051C20845500995818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D19C4091C20845500995818 /* PBXTargetDependency */,
+			);
+			name = ArhamUITests;
+			productName = ArhamUITests;
+			productReference = 6D19C4071C20845500995818 /* ArhamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D19C3DD1C20845500995818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Neeraj Visinigiri";
+				TargetAttributes = {
+					6D19C3E41C20845500995818 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6D19C3FB1C20845500995818 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6D19C3E41C20845500995818;
+					};
+					6D19C4061C20845500995818 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6D19C3E41C20845500995818;
+					};
+				};
+			};
+			buildConfigurationList = 6D19C3E01C20845500995818 /* Build configuration list for PBXProject "Arham" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D19C3DC1C20845400995818;
+			productRefGroup = 6D19C3E61C20845500995818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D19C3E41C20845500995818 /* Arham */,
+				6D19C3FB1C20845500995818 /* ArhamTests */,
+				6D19C4061C20845500995818 /* ArhamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D19C3E31C20845500995818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D19C3F61C20845500995818 /* LaunchScreen.storyboard in Resources */,
+				6D19C3F31C20845500995818 /* Assets.xcassets in Resources */,
+				6D19C3EE1C20845500995818 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19C3FA1C20845500995818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19C4051C20845500995818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D19C3E11C20845500995818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D19C3EB1C20845500995818 /* ViewController.swift in Sources */,
+				6D19C3E91C20845500995818 /* AppDelegate.swift in Sources */,
+				6D19C3F11C20845500995818 /* Arham.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19C3F81C20845500995818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D19C4011C20845500995818 /* ArhamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D19C4031C20845500995818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D19C40C1C20845500995818 /* ArhamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D19C3FE1C20845500995818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D19C3E41C20845500995818 /* Arham */;
+			targetProxy = 6D19C3FD1C20845500995818 /* PBXContainerItemProxy */;
+		};
+		6D19C4091C20845500995818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D19C3E41C20845500995818 /* Arham */;
+			targetProxy = 6D19C4081C20845500995818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D19C3EC1C20845500995818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D19C3ED1C20845500995818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D19C3F41C20845500995818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D19C3F51C20845500995818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D19C40E1C20845500995818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D19C40F1C20845500995818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D19C4111C20845500995818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arham/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowSoft.Arham;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D19C4121C20845500995818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arham/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowSoft.Arham;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D19C4141C20845500995818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArhamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowSoft.ArhamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arham.app/Arham";
+			};
+			name = Debug;
+		};
+		6D19C4151C20845500995818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArhamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowSoft.ArhamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arham.app/Arham";
+			};
+			name = Release;
+		};
+		6D19C4171C20845500995818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArhamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowSoft.ArhamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Arham;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6D19C4181C20845500995818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArhamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SparrowSoft.ArhamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Arham;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D19C3E01C20845500995818 /* Build configuration list for PBXProject "Arham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19C40E1C20845500995818 /* Debug */,
+				6D19C40F1C20845500995818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D19C4101C20845500995818 /* Build configuration list for PBXNativeTarget "Arham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19C4111C20845500995818 /* Debug */,
+				6D19C4121C20845500995818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D19C4131C20845500995818 /* Build configuration list for PBXNativeTarget "ArhamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19C4141C20845500995818 /* Debug */,
+				6D19C4151C20845500995818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D19C4161C20845500995818 /* Build configuration list for PBXNativeTarget "ArhamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D19C4171C20845500995818 /* Debug */,
+				6D19C4181C20845500995818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D19C3EF1C20845500995818 /* Arham.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D19C3F01C20845500995818 /* Arham.xcdatamodel */,
+			);
+			currentVersion = 6D19C3F01C20845500995818 /* Arham.xcdatamodel */;
+			path = Arham.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D19C3DD1C20845500995818 /* Project object */;
+}
